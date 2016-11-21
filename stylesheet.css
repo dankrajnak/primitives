@@ -1,0 +1,37 @@
+/*Home->Index*/
+#header{
+	font-family: gill sans, serif;
+	font-weight: lighter;
+	font-size: 14pt;
+	text-align: center;
+}
+canvas{
+	position: absolute;
+	top: 10%;
+}
+ul{
+	z-index:1;
+	position: relative;
+	width:400pt;
+	margin: auto;
+	top: -10pt;
+	/*Placed above the screen so mouse stays on processing 
+	canvas when moving between list items*/
+
+}
+li {
+	position: relative;
+	z-index:1;
+	top: 100pt;
+	padding-left: 50pt;
+	padding-right:50pt;
+	display: inline;
+}
+li > a{
+	text-decoration: none;
+	color: black;
+}
+
+li > a:hover{
+	text-decoration: underline;
+}
